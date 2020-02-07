@@ -1,0 +1,56 @@
+.gallery {
+    /* margin: 10px,50px; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    transition: 0.4s;
+    padding: 30px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.redesSociais{
+    display: flex;
+    width: 60%;
+    margin: 50 auto 50px;
+    text-align: center;
+}
+.redeSocial{
+    align-self: center;
+    margin: auto;
+}
+.meufooter{
+    color: white;
+}
+#meuavatar{
+    height: 200px;
+    width: 200px;
+    margin-top: -10 px;
+}
+.apresentacao{
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.tituloseparado{
+    margin-top: 60px;
+       
+}
+#margemparagrafo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.separado{
+    margin-top: 25px;
+}
+.divtitulo{
+    background-color: lightgray; 
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+}
