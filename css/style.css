@@ -14,42 +14,50 @@
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-.redesSociais{
+
+.redesSociais {
     display: flex;
     width: 60%;
     margin: 50 auto 50px;
     text-align: center;
 }
-.redeSocial{
+
+.redeSocial {
     align-self: center;
     margin: auto;
 }
-.meufooter{
+
+.meufooter {
     color: white;
 }
-#meuavatar{
+
+#meuavatar {
     height: 200px;
     width: 200px;
     margin-top: -10 px;
 }
-.apresentacao{
+
+.apresentacao {
     margin-top: 60px;
     margin-left: 15px;
     margin-right: 15px;
 }
-.tituloseparado{
+
+.tituloseparado {
     margin-top: 60px;
-       
 }
-#margemparagrafo{
+
+#margemparagrafo {
     margin-left: 15px;
     margin-right: 15px;
 }
-.separado{
+
+.separado {
     margin-top: 25px;
 }
-.divtitulo{
-    background-color: lightgray; 
+
+.divtitulo {
+    background-color: lightgray;
     margin-left: 500px;
     margin-right: 500px;
     border-radius: 20px;
