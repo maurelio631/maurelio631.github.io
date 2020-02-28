@@ -1,7 +1,6 @@
 .gallery {
-    /* margin: 10px,50px; */
-    width: 0 auto;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
 
 .gallery img {
