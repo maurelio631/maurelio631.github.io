@@ -1,6 +1,7 @@
 .gallery {
     width: auto;
     margin: auto;
+    text-align: center;
 }
 
 .gallery img {
@@ -12,6 +13,10 @@
 .gallery img:hover {
     filter: grayscale(100%);
     transform: scale(1.1);
+}
+
+.row {
+    margin-right: 0 auto;
 }
 
 .extras {
