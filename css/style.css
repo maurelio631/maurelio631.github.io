@@ -19,6 +19,11 @@
     margin-right: 0 auto;
 }
 
+.arquivo {
+    height: 64px;
+    width: 64px;
+}
+
 .extras {
     align-items: center;
     text-align: center;
