@@ -127,24 +127,28 @@
                         <form>
                             <div class="form-group col-sm-12 col-md-12 col-lg-12">
                                 <label class=" form-check-label font-weight-bold">Nome</label>
-                                <input class=" form-control" size="2" type="text">
+                                <input id="inputnome" class=" form-control" size="2" type="text">
                             </div>
                             <div class="form-group col-sm-12 col-md-12 col-lg-12">
                                 <label class=" form-check-label font-weight-bold">E-mail</label>
-                                <input class="form-control  " type="email">
+                                <input id="inputemail" class="form-control  " type="email">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                                <label class=" form-check-label font-weight-bold">Confirme Seu E-mail</label>
+                                <input id="inputconfirmaemail" class="form-control  " type="email">
                             </div>
                             <div class="form-group col-sm-12 col-md-12 col-lg-12">
                                 <label class=" form-check-label font-weight-bold">Celular</label>
-                                <input placeholder="Opcional" class="form-control  " type="tel">
+                                <input id="inputcelular" placeholder="Opcional" class="form-control  " type="tel">
                             </div>
                             <div class="form-group col-sm-12 col-md-12 col-lg-12">
                                 <label class=" form-check-label font-weight-bold">Assunto</label>
-                                <input class=" form-control  " type="text" class="ml-4 mt-0 ">
+                                <input id="inputassunto" class=" form-control  " type="text">
                             </div>
                         </form>
                     </div>
                     <div class=" text-center mb-5">
-                        <input class="form-check-input btn btn-dark font-weight-bold " value="Enviar" type="button">
+                        <input id="buttonEnviar" class="form-check-input btn btn-dark font-weight-bold " value="Enviar" type="button" onclick="formvalidado">
                     </div>
                 </div>
 
