@@ -1,10 +1,12 @@
 {
   "name": "portfolio",
-  "homepage": ".",
+  "homepage": "https://maurelio631.github.io",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
