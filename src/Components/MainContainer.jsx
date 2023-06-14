@@ -26,7 +26,7 @@ export default function MainContainer() {
           <img
             src={PhoneMemoji}
             typeof="image/webp"
-            alt=""
+            alt="Memoji imitando um telefone com a mão próximo ao rosto"
             className="w-32 mt-5 hover:scale-150 transition-all"
           />
           <p className="text-white mt-12 text-center md:text-justify">
@@ -152,7 +152,7 @@ export default function MainContainer() {
             <h3>A Quiropraxia</h3>
             <div className="w-80">
               <a href="https://aquiropraxia.com.br" target="_blank">
-                <img src={AQuiropraxia} className="rounded-md" />
+                <img src={AQuiropraxia} className="rounded-md" alt="Captura de tela do site a quiropraxia"/>
               </a>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function MainContainer() {
             <h3>Pura Coluna</h3>
             <div className="w-80">
               <a href="https://puracoluna.com.br" target="_blank">
-                <img src={PuraColuna} className="rounded-md" />
+                <img src={PuraColuna} className="rounded-md" alt="Captura de tela do site pura coluna" />
               </a>
             </div>
           </div>

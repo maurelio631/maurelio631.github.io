@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineClose } from "react-icons/ai";
 import { FiTwitter } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Teclado from "../Assets/img/teclado.png";
@@ -11,7 +11,7 @@ export default function NavBar() {
   const textoH1 = "Oi, eu sou o Marco :)";
   const botaoToggle = document.querySelector("#toggleMenu");
   const navbarLinks = document.querySelector("#navbarLinks");
-
+  const [navbarOpen, setNavbarOpen] = useState(false);
   function ocultarMenu() {
     navbarLinks.classList.toggle("hidden");
     if (botaoToggle.classList.contains("hidden")) {
@@ -21,21 +21,22 @@ export default function NavBar() {
 
   return (
     <header>
-      <nav className="flex flex-col md:flex-row justify-center md:justify-around items-center bg-black text-white text-base py-5">
+      <nav className="flex flex-col md:flex-row justify-center md:justify-around items-center bg-black text-white text-base py-5 relative">
         <a href="index.html" className="text-xl">
           <h1 className="m-8">{textoH1}</h1>
         </a>
         <button
           className="absolute top-12 right-8 cursor-pointer md:hidden"
           id="toggleMenu"
-          onClick={ocultarMenu}
+          onClick={() => setNavbarOpen((prev) => !prev)}
         >
-          <GiHamburgerMenu height={24} width={24} />
+          {navbarOpen ? (
+            <AiOutlineClose height={24} width={24} />
+            ) : (
+            <GiHamburgerMenu height={24} width={24} />
+          )}
         </button>
-        <ul
-          className="flex items-center p-2 flex-col md:flex-row"
-          id="navbarLinks"
-        >
+        <ul className={navbarOpen ? "d-block" : "hidden"}  id="navbarLinks">
           <li className="p-4">
             <Link
               to="SobreMim"

@@ -43,7 +43,7 @@ export default function Footer() {
           </a>
         </div>
         <a href="#">
-          <img src={TechMemoji} className="w-32 my-4 hover:scale-150 transition-all" />
+          <img src={TechMemoji} className="w-32 my-4 hover:scale-150 transition-all" alt="Memoji usando um Macbook"/>
         </a>
         <p className="text-center my-4">
           Todos os direitos reservados &copy; 2022 - Design created by
