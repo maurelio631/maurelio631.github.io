@@ -25,7 +25,6 @@ export default function MainContainer() {
         <div className="flex flex-col items-center">
           <img
             src={Eu}
-            typeof="image/webp"
             alt="Minha foto"
             className="w-32 mt-5 rounded-full"
           />
