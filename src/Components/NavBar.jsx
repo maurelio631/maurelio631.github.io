@@ -32,9 +32,9 @@ export default function NavBar() {
             onClick={() => setNavbarOpen((prev) => !prev)}
           >
             {navbarOpen ? (
-              <AiOutlineClose size="2em" />
+              <AiOutlineClose size="1.8em" />
             ) : (
-              <GiHamburgerMenu size="2em" />
+              <GiHamburgerMenu size="1.8em" />
             )}
           </button>
         </div>
