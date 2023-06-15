@@ -5,7 +5,7 @@ import { Progress, Stack } from "@chakra-ui/react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { MdOutlinePendingActions } from "react-icons/md";
 
-import PhoneMemoji from "../Assets/img/PhoneMemoji.webp";
+import Eu from "../Assets/img/Eu.jpeg";
 import Code from "../Assets/img/code.png";
 import SenacLogo from "../Assets/img/SenacLogo.png";
 import UninoveLogo from "../Assets/img/LogoUninove.jpeg";
@@ -24,10 +24,10 @@ export default function MainContainer() {
         <h2 className="text-white text-center ">Sobre mim</h2>
         <div className="flex flex-col items-center">
           <img
-            src={PhoneMemoji}
+            src={Eu}
             typeof="image/webp"
-            alt="Memoji imitando um telefone com a mão próximo ao rosto"
-            className="w-32 mt-5 hover:scale-150 transition-all"
+            alt="Minha foto"
+            className="w-32 mt-5 rounded-full"
           />
           <p className="text-white mt-12 text-center md:text-justify">
             Oi, eu sou o Marco! Tenho 22 anos e se você caiu aqui de

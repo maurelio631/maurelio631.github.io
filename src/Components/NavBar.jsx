@@ -38,7 +38,7 @@ export default function NavBar() {
             )}
           </button>
         </div>
-        <ul className={navbarOpen ? "d-block" : "hidden"} id="navbarLinks">
+        <ul className={`flex flex-col md:flex-row ${navbarOpen ? "d-flex" : "hidden"}`} id="navbarLinks">
           <li className="p-4 text-center">
             <Link
               to="SobreMim"
