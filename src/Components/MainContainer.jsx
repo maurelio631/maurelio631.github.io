@@ -5,7 +5,7 @@ import { Progress, Stack } from "@chakra-ui/react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { MdOutlinePendingActions } from "react-icons/md";
 
-import Eu from "../Assets/img/Eu.jpeg";
+import Eu from "../Assets/img/eu.jpeg";
 import Code from "../Assets/img/code.png";
 import SenacLogo from "../Assets/img/SenacLogo.png";
 import UninoveLogo from "../Assets/img/LogoUninove.jpeg";
