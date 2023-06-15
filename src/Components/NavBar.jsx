@@ -22,34 +22,36 @@ export default function NavBar() {
   return (
     <header>
       <nav className="flex flex-col md:flex-row justify-center md:justify-around items-center bg-black text-white text-base py-5 relative">
-        <a href="index.html" className="text-xl">
-          <h1 className="m-8">{textoH1}</h1>
-        </a>
-        <button
-          className="absolute top-12 right-8 cursor-pointer md:hidden"
-          id="toggleMenu"
-          onClick={() => setNavbarOpen((prev) => !prev)}
-        >
-          {navbarOpen ? (
-            <AiOutlineClose height={24} width={24} />
+        <div className="">
+          <a href="index.html" className="text-xl">
+            <h1 className="m-8">{textoH1}</h1>
+          </a>
+          <button
+            className="absolute top-12 right-8 cursor-pointer md:hidden"
+            id="toggleMenu"
+            onClick={() => setNavbarOpen((prev) => !prev)}
+          >
+            {navbarOpen ? (
+              <AiOutlineClose size="1.4em" />
             ) : (
-            <GiHamburgerMenu height={24} width={24} />
-          )}
-        </button>
-        <ul className={navbarOpen ? "d-block" : "hidden"}  id="navbarLinks">
-          <li className="p-4">
+              <GiHamburgerMenu size="1.4em" />
+            )}
+          </button>
+        </div>
+        <ul className={navbarOpen ? "d-block" : "hidden"} id="navbarLinks">
+          <li className="p-4 text-center">
             <Link
               to="SobreMim"
               spy={true}
               offset={-100}
               smooth={true}
               duration={500}
-              className="cursor-pointer hover:border-b-2 hover:border-lime-500"
+              className="cursor-pointer hover:border-b-2 hover:border-lime-500 text-center"
             >
               Sobre mim{" "}
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 text-center">
             <Link
               to="Educacao"
               spy={true}
@@ -62,7 +64,7 @@ export default function NavBar() {
               Educação
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 text-center">
             <Link
               to="Experiencia"
               spy={true}
@@ -74,7 +76,7 @@ export default function NavBar() {
               Experiência
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 text-center">
             <Link
               to="Habilidades"
               spy={true}
