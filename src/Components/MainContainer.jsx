@@ -26,6 +26,7 @@ export default function MainContainer() {
           <img
             src={Eu}
             alt="Minha foto"
+            typeof="img/jpeg"
             className="w-32 mt-5 rounded-full"
           />
           <p className="text-white mt-12 text-center md:text-justify">
@@ -105,7 +106,8 @@ export default function MainContainer() {
       </section>
       <section
         className=" flex flex-col p-10 bg-black text-white"
-        id="Experiencia">
+        id="Experiencia"
+      >
         <h2 className="text-white text-center">Experiência</h2>
         <p className="text-center mt-5 md:text-center">
           Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a
@@ -151,7 +153,11 @@ export default function MainContainer() {
             <h3>A Quiropraxia</h3>
             <div className="w-80">
               <a href="https://aquiropraxia.com.br" target="_blank">
-                <img src={AQuiropraxia} className="rounded-md" alt="Captura de tela do site a quiropraxia"/>
+                <img
+                  src={AQuiropraxia}
+                  className="rounded-md"
+                  alt="Captura de tela do site a quiropraxia"
+                />
               </a>
             </div>
           </div>
@@ -159,7 +165,11 @@ export default function MainContainer() {
             <h3>Pura Coluna</h3>
             <div className="w-80">
               <a href="https://puracoluna.com.br" target="_blank">
-                <img src={PuraColuna} className="rounded-md" alt="Captura de tela do site pura coluna" />
+                <img
+                  src={PuraColuna}
+                  className="rounded-md"
+                  alt="Captura de tela do site pura coluna"
+                />
               </a>
             </div>
           </div>
