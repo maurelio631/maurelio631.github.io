@@ -32,7 +32,7 @@ export default function GoToTopBtn() {
           <AiOutlineArrowUp
             fontSize={30}
             className="bg-black rounded-full text-lime-500 hover:bg-lime-500 hover:text-black transition-colors"
-            aria-aria-hidden="true"
+            aria-hidden="true"
           />
         </button>
       )}
