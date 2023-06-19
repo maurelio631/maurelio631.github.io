@@ -279,7 +279,11 @@ export default function MainContainer() {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center mt-5 ">
           <div className="flex flex-col md:m-8">
-          <iframe src="src\Assets\documents\Marco.pdf" frameborder="0" className="h-96 w-96"></iframe>
+            <iframe
+              src="src\Assets\documents\Marco.pdf#toolbar=0"
+              frameborder="0"
+              className="h-96 w-96"
+            ></iframe>
           </div>
         </div>
         <GoToTopBtn />
