@@ -52,6 +52,9 @@ export default function NavBar() {
             </Link>
           </li>
           <li className="p-4 text-center">
+             <a href="src\Assets\documents\Marco.pdf" target="_blank" download >Meu CV</a> 
+          </li>
+          <li className="p-4 text-center">
             <Link
               to="Educacao"
               spy={true}
