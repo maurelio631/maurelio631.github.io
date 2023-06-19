@@ -36,7 +36,6 @@ export default function MainContainer() {
             aprendendo, trabalhos que eu executei e o que está em andamento por
             aqui.
           </p>
-          <embed src="src\Assets\documents\Marco.pdf" type="application/pdf"   height="700px" width="500"></embed>
           <p className="text-white mt-12 text-center md:text-justify ">
             Pra começar, eu vou contar um pouco sobre os cursos que eu fiz e os
             que estão prestes a terminar:
