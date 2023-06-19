@@ -265,6 +265,25 @@ export default function MainContainer() {
         </div>
         <GoToTopBtn />
       </section>
+      <section
+        className=" flex flex-col p-10 bg-black text-white"
+        id="Habilidades"
+      >
+        <h2 className="text-white text-center">Extra</h2>
+        <p className="text-center mt-5">
+          Para o caso de querer avaliar de maneira mais profunda minhas
+          experiencias profissionais e educacionais, abaixo ficara disponível
+          para visualização meu currículo. Sinta-se a vontade para mandar
+          sugestões de melhorias ou dicas do que eu poderia fazer para continuar
+          progredindo na carreira.
+        </p>
+        <div className="flex flex-col md:flex-row justify-center items-center mt-5 ">
+          <div className="flex flex-col md:m-8">
+          <iframe src="src\Assets\documents\Marco.pdf" frameborder="0" className="h-96 w-96"></iframe>
+          </div>
+        </div>
+        <GoToTopBtn />
+      </section>
     </main>
   );
 }
