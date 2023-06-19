@@ -38,7 +38,12 @@ export default function NavBar() {
             )}
           </button>
         </div>
-        <ul className={`flex flex-col md:flex-row ${navbarOpen ? "flex" : "sm:hidden"} md:flex`} id="navbarLinks">
+        <ul
+          className={`flex flex-col md:flex-row ${
+            navbarOpen ? "flex" : "sm:hidden"
+          } md:flex`}
+          id="navbarLinks"
+        >
           <li className="p-4 text-center">
             <Link
               to="SobreMim"
@@ -50,9 +55,6 @@ export default function NavBar() {
             >
               Sobre mim{" "}
             </Link>
-          </li>
-          <li className="p-4 text-center">
-             <a href="src\Assets\documents\Marco.pdf" target="_blank" download >Meu CV</a> 
           </li>
           <li className="p-4 text-center">
             <Link
