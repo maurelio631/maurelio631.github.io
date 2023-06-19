@@ -13,6 +13,7 @@ import AugmensysLogo from "../Assets/img/AugmensysLogo.jpg";
 import ConfitecLogo from "../Assets/img/ConfitecLogo.jpg";
 import RochelleGif from "../Assets/img/rochelle.gif";
 import GoToTopBtn from "./GoToTopBtn";
+import CV from "../Assets/documents/Marco.pdf"
 
 import PuraColuna from "../Assets/img/PuraColuna.png";
 import AQuiropraxia from "../Assets/img/AQuiropraxia.png";
@@ -280,9 +281,10 @@ export default function MainContainer() {
         <div className="flex flex-col md:flex-row justify-center items-center mt-5 ">
           <div className="flex flex-col md:m-8">
             <iframe
-              src="src\Assets\documents\Marco.pdf#toolbar=0"
+              src={`${CV}#view=fitH`}
               frameborder="0"
-              className="h-96 w-96"
+              height="100%"
+              width="100%"
             ></iframe>
           </div>
         </div>
