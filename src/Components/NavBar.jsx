@@ -40,7 +40,7 @@ export default function NavBar() {
         </div>
         <ul
           className={`flex flex-col md:flex-row ${
-            navbarOpen ? "flex" : "sm:hidden"
+            navbarOpen ? "flex" : "hidden"
           } md:flex`}
           id="navbarLinks"
         >

@@ -13,7 +13,7 @@ import AugmensysLogo from "../Assets/img/AugmensysLogo.jpg";
 import ConfitecLogo from "../Assets/img/ConfitecLogo.jpg";
 import RochelleGif from "../Assets/img/rochelle.gif";
 import GoToTopBtn from "./GoToTopBtn";
-import CV from "../Assets/documents/Marco.pdf"
+import CV from "../Assets/documents/Marco.pdf";
 
 import PuraColuna from "../Assets/img/PuraColuna.png";
 import AQuiropraxia from "../Assets/img/AQuiropraxia.png";
@@ -53,8 +53,8 @@ export default function MainContainer() {
           porque estudar nunca é demais!
         </p>
         <div className="flex flex-col items-center mt-10">
-          <div className="flex flex-wrap justify-center">
-            <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
+          <div className="flex flex-wrap justify-center gap-8">
+            <div className="h-72 w-64 border-2 border-lime-500  flex flex-col justify-center items-center">
               <img
                 className="rounded-full w-1/2"
                 src={SenacLogo}
@@ -66,7 +66,7 @@ export default function MainContainer() {
               </p>
               <AiFillCheckCircle className="text-lime-500 mt-2" />
             </div>
-            <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
+            <div className="h-72 w-64 border-2 border-lime-500  flex flex-col justify-center items-center">
               <img
                 className="rounded-full w-1/2"
                 src={SenacLogo}
@@ -78,7 +78,7 @@ export default function MainContainer() {
               </p>
               <AiFillCheckCircle className="text-lime-500 mt-2" />
             </div>
-            <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
+            <div className="h-72 w-64 border-2 border-lime-500  flex flex-col justify-center items-center">
               <img
                 className="rounded-full w-1/2"
                 src={SenacLogo}
@@ -90,7 +90,7 @@ export default function MainContainer() {
               </p>
               <AiFillCheckCircle className="text-lime-500 mt-2" />
             </div>
-            <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
+            <div className="h-72 w-64 border-2 border-lime-500  flex flex-col justify-center items-center">
               <img
                 className="rounded-full w-1/2"
                 src={UninoveLogo}
@@ -149,10 +149,10 @@ export default function MainContainer() {
             E é por isso que aqui tenho mais alguns trabalhos que estão no ar:
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center my-10">
-          <div className="flex flex-col items-center mx-5 hover:scale-150 transition-all">
+        <div className="flex flex-col md:flex-row justify-center my-10 gap-y-12">
+          <div className="flex flex-col items-center mx-5 hover:scale-105 transition-all max-w-full">
             <h3>A Quiropraxia</h3>
-            <div className="w-80">
+            <div className="w-64 md:w-80">
               <a href="https://aquiropraxia.com.br" target="_blank">
                 <img
                   src={AQuiropraxia}
@@ -162,13 +162,13 @@ export default function MainContainer() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center hover:scale-150 transition-all">
+          <div className="flex flex-col items-center hover:scale-105 transition-all max-w-full">
             <h3>Pura Coluna</h3>
-            <div className="w-80">
+            <div className="w-64 md:w-80">
               <a href="https://puracoluna.com.br" target="_blank">
                 <img
                   src={PuraColuna}
-                  className="rounded-md"
+                  className="rounded-md object-contain"
                   alt="Captura de tela do site pura coluna"
                 />
               </a>
@@ -262,30 +262,6 @@ export default function MainContainer() {
                 colorScheme="green"
               />
             </div>
-          </div>
-        </div>
-        <GoToTopBtn />
-      </section>
-      <section
-        className=" flex flex-col p-10 bg-black text-white"
-        id="Habilidades"
-      >
-        <h2 className="text-white text-center">Extra</h2>
-        <p className="text-center mt-5">
-          Para o caso de querer avaliar de maneira mais profunda minhas
-          experiencias profissionais e educacionais, abaixo ficara disponível
-          para visualização meu currículo. Sinta-se a vontade para mandar
-          sugestões de melhorias ou dicas do que eu poderia fazer para continuar
-          progredindo na carreira.
-        </p>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-5 ">
-          <div className="flex flex-col md:m-8">
-            <iframe
-              src={`${CV}#view=fitH`}
-              frameborder="0"
-              height="100%"
-              width="100%"
-            ></iframe>
           </div>
         </div>
         <GoToTopBtn />
