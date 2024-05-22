@@ -3,7 +3,7 @@ import NavBar from "./Components/NavBar";
 import MainContainer from "./Components/MainContainer";
 import Footer from "./Components/Footer";
 import { Fragment } from "react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/speed-insights/next"
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <MainContainer />
       <Footer />
-      <SpeedInsights />
+      <Analytics />
     </Fragment>
   );
 }
